@@ -21,6 +21,10 @@
                 "description": "Hi! I'm a backend developer, and I really want to study and learn more about everything!",
                 "author": "Breno Augusto Ribeiro Campos", 
                 "occupation": "Backend Developer"
+                "links": {
+                    "linkedin": "https://www.linkedin.com/in/breno-augusto-ribeiro-campos-787863161",
+                    "github": "https://github.com/breno23augusto"
+                }
             }
         </code>
     </pre>
