@@ -22,3 +22,33 @@ html, body {
 .h-15 {
     height: 15% !important;
 }
+
+@media (max-width: 767px) {
+    .container-fluid.pl-5.mt-5 {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+code[class*="language-"], pre[class*="language-"] {
+    color: #f8f8f2;
+    background: none;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 1.3em;
+    text-align: left;
+    white-space: pre-wrap;
+    word-spacing: normal;
+    word-break: break-word;
+    word-wrap: break-word;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
