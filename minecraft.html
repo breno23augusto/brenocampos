@@ -519,12 +519,12 @@
                 let listTemplate = `
                     <tr>
                         <td>
-                            <span class="sprite item-sprite" style="background-image: url(&quot;https://static.wikia.nocookie.net/minecraft_br_gamepedia/images/f/f5/ItemCSS.png/revision/latest?cb=20230620175105&amp;cb=20230125051731&amp;amp;format=original&amp;amp;format=original&amp;format=original&quot;); background-position: ${item.x} ${item.y};"></span>
+                            <span class="sprite item-sprite" style="background-image: url(${imageUrl}); background-position: ${item.x} ${item.y};"></span>
                         </td> 
                         <td>${item.name}</td>
                         <td class="text-end">
                             ${item.price}
-                            <span class="sprite item-sprite" style="background-image: url(&quot;https://static.wikia.nocookie.net/minecraft_br_gamepedia/images/f/f5/ItemCSS.png/revision/latest?cb=20230620175105&amp;cb=20230125051731&amp;amp;format=original&amp;amp;format=original&amp;format=original&quot;); background-position: -208px -544px;"></span>
+                            <span class="sprite item-sprite" style="background-image: url(${imageUrl}); background-position: -208px -544px;"></span>
                         </td>
                     </tr>
                 `;
